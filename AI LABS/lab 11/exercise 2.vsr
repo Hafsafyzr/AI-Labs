@@ -1,0 +1,80 @@
+
+(property scale 100)
+
+(vrl_instance kdsyrhjh question [(= question_type multiple_choice) (= size {141 60}) (= selected 2)] 326 54 [(text 1 `symptoms` [(= visible 2) (= edited 1)]) (text 2 `select ur symptoms` [(= visible 2) (= edited 1)]) (text 3 `explanation` [(= visible 2)])])
+
+(vrl_instance sjwhwyfz expression [(= size {216 24}) (= selected 1)] 204 144 [(text 1 ` >=['dry cough', 'general malaise']` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance wnecqanu expression [(= size {239 24}) (= selected 1)] 445 144 [(text 1 ` >=['running nose', 'sneezing']` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance pzawjhhm expression [(= size {193 35}) (= selected 1)] 720 139 [(text 1 ` >=['breathless', 'wheezing']` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance kpsbxfic expression [(= size {83 24}) (= selected 1)] 943 144 [(text 1 `=[]` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance keaswftg expression [(= size {74 24}) (= selected 1)] 1043 156 [(text 1 `>[]` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance qllmntrr question [(= question_type single_choice) (= size {75 60}) (= selected 2)] 251 186 [(text 1 `fever` [(= visible 2) (= edited 1)]) (text 2 `fever?` [(= visible 2) (= edited 1)]) (text 3 `explanation` [(= visible 2)])])
+
+(vrl_instance cehdlytd question [(= question_type single_choice) (= size {94 60}) (= selected 2)] 541 198 [(text 1 `allergies` [(= visible 2) (= edited 1)]) (text 2 `allergies?` [(= visible 2) (= edited 1)]) (text 3 `explanation` [(= visible 2)])])
+
+(vrl_instance fhraymnc expression [(= size {87 36}) (= selected 1)] 161 258 [(text 1 `yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance dejigfpw expression [(= size {73 28}) (= selected 1)] 300 262 [(text 1 `no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance gtsuorpa expression [(= size {73 37}) (= selected 1)] 504 294 [(text 1 ` yes` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance yratohem expression [(= size {72 43}) (= selected 1)] 612 303 [(text 1 ` no` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance vhhxnklj end [(= size {107 38}) (= selected 1)] 283 341 [(text 1 `laryngits` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance hpyvgfvt end [(= size {79 24}) (= selected 1)] 477 372 [(text 1 `fever` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance nxrzhywr end [(= size {83 26}) (= selected 1)] 619 383 [(text 1 `common cold` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance tngclbnh end [(= size {89 33}) (= selected 1)] 772 224 [(text 1 `asthma` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance tlpyshgv end [(= size {115 45}) (= selected 1)] 939 218 [(text 1 `guess u r okay` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance dnvfsilf end [(= size {135 36}) (= selected 1)] 1001 330 [(text 1 `can't diagnosis` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance xyvweapl end [(= size {115 24}) (= selected 1)] 111 348 [(text 1 `influenza` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance hemdfiey start [(= size {83 24}) (= selected 1)] 343 0 [(text 1 `Start` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance {qllmntrr dejigfpw} link [] qllmntrr dejigfpw [arrow line])
+
+(vrl_instance {hemdfiey kdsyrhjh} link [] hemdfiey kdsyrhjh [arrow line])
+
+(vrl_instance {kdsyrhjh sjwhwyfz} link [] kdsyrhjh sjwhwyfz [arrow line])
+
+(vrl_instance {kdsyrhjh wnecqanu} link [] kdsyrhjh wnecqanu [arrow line])
+
+(vrl_instance {kdsyrhjh pzawjhhm} link [] kdsyrhjh pzawjhhm [arrow line])
+
+(vrl_instance {kdsyrhjh kpsbxfic} link [] kdsyrhjh kpsbxfic [arrow line])
+
+(vrl_instance {kdsyrhjh keaswftg} link [] kdsyrhjh keaswftg [arrow line])
+
+(vrl_instance {sjwhwyfz qllmntrr} link [] sjwhwyfz qllmntrr [arrow line])
+
+(vrl_instance {qllmntrr fhraymnc} link [] qllmntrr fhraymnc [arrow line])
+
+(vrl_instance {fhraymnc xyvweapl} link [] fhraymnc xyvweapl [arrow line])
+
+(vrl_instance {dejigfpw vhhxnklj} link [] dejigfpw vhhxnklj [arrow line])
+
+(vrl_instance {wnecqanu cehdlytd} link [] wnecqanu cehdlytd [arrow line])
+
+(vrl_instance {cehdlytd gtsuorpa} link [] cehdlytd gtsuorpa [arrow line])
+
+(vrl_instance {cehdlytd yratohem} link [] cehdlytd yratohem [arrow line])
+
+(vrl_instance {gtsuorpa hpyvgfvt} link [] gtsuorpa hpyvgfvt [arrow line])
+
+(vrl_instance {yratohem nxrzhywr} link [] yratohem nxrzhywr [arrow line])
+
+(vrl_instance {pzawjhhm tngclbnh} link [] pzawjhhm tngclbnh [arrow line])
+
+(vrl_instance {kpsbxfic tlpyshgv} link [] kpsbxfic tlpyshgv [arrow line])
+
+(vrl_instance {keaswftg dnvfsilf} link [] keaswftg dnvfsilf [arrow line])

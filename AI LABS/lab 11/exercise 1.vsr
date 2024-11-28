@@ -1,0 +1,46 @@
+
+(property scale 100)
+
+(vrl_instance drkayvjx start [(= size {112 35}) (= selected 1)] 316 7 [(text 1 `start1` [(= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance wmddgkll question [(= question_type integer_input) (= size {88 60}) (= selected 2)] 340 78 [(text 1 `age` [(= visible 2) (= edited 1)]) (text 2 `age?` [(= visible 2) (= edited 1)]) (text 3 `explanation` [(= visible 2)])])
+
+(vrl_instance iqojabem question [(= question_type integer_input) (= size {83 60}) (= selected 2)] 343 174 [(text 1 `service` [(= visible 2) (= edited 1)]) (text 2 `service?` [(= visible 2) (= edited 1)]) (text 3 `explanation` [(= visible 2)])])
+
+(vrl_instance mfqpmsia expression [(= size {236 28}) (= selected 1)] 290 286 [(text 1 ` =?'age'>=60 or ?'service' >=30` [(= fore vrl_error) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance hqmdjjdd expression [(= size {193 25}) (= selected 1)] 600 288 [(text 1 ` =?'service'>=15 and ?'service'<=30 or ?'age'>=45` [(= fore vrl_error) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance ipqqfopv expression [(= size {145 24}) (= selected 1)] 864 288 [(text 1 `=?'age'>=18 and ?'age'<45 or ?'service'<15` [(= fore vrl_error) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance eqmogyqo end [(= size {72 28}) (= selected 1)] 108 370 [(text 1 `22+5` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance ebwxnagu end [(= size {102 35}) (= selected 1)] 357 367 [(text 1 `22+5+3` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance uahyrmbn end [(= size {74 24}) (= selected 1)] 647 372 [(text 1 `22+2` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance lqohijez end [(= size {72 24}) (= selected 1)] 924 372 [(text 1 `22` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance drlqcamt elbow [(= size {12 12})] 882 282 [])
+
+(vrl_instance ffwutazb expression [(= size {157 31}) (= selected 1)] 66 285 [(text 1 ` <18` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance {drkayvjx wmddgkll} link [] drkayvjx wmddgkll [arrow line])
+
+(vrl_instance {wmddgkll iqojabem} link [] wmddgkll iqojabem [arrow line])
+
+(vrl_instance {iqojabem hqmdjjdd} link [] iqojabem hqmdjjdd [arrow line])
+
+(vrl_instance {iqojabem drlqcamt} link [] iqojabem drlqcamt [arrow line])
+
+(vrl_instance {ffwutazb eqmogyqo} link [] ffwutazb eqmogyqo [arrow line])
+
+(vrl_instance {mfqpmsia ebwxnagu} link [] mfqpmsia ebwxnagu [arrow line])
+
+(vrl_instance {hqmdjjdd uahyrmbn} link [] hqmdjjdd uahyrmbn [arrow line])
+
+(vrl_instance {ipqqfopv lqohijez} link [] ipqqfopv lqohijez [arrow line])
+
+(vrl_instance {wmddgkll ffwutazb} link [] wmddgkll ffwutazb [arrow line])
+
+(vrl_instance {iqojabem mfqpmsia} link [] iqojabem mfqpmsia [arrow line])

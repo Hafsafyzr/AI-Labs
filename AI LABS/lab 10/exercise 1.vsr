@@ -1,0 +1,32 @@
+
+(property scale 100)
+
+(vrl_instance avdnloat question [(= question_type integer_input) (= size {86 63}) (= selected 2)] 377 101 [(text 1 `Height` [(= visible 2) (= edited 1)]) (text 2 `Height?` [(= visible 2) (= edited 1)]) (text 3 `explanation` [(= visible 2)])])
+
+(vrl_instance lzslzilh question [(= question_type integer_input) (= size {102 62}) (= selected 2)] 381 245 [(text 1 `Weight` [(= visible 2) (= edited 1)]) (text 2 `Weight?` [(= visible 2) (= edited 1)]) (text 3 `explanation` [(= visible 2)])])
+
+(vrl_instance gxfmjskf expression [(= size {72 24}) (= selected 1)] 396 192 [(text 1 ` >0` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance lyyejspf expression [(= size {72 27}) (= selected 1)] 408 347 [(text 1 `>0` [(= fore vrl_valid) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance sievbmir end [(= size {82 28}) (= selected 1)] 631 490 [(text 1 `end` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance bgooyxrt statement [(= size {135 60}) (= selected 1)] 401 402 [(text 1 `Density` [(= visible 2) (= edited 1)]) (text 2 `X` [(= visible 2)]) (text 3 `X is 'Weight'/'Height'` [(= visible 2) (= edited 1)])])
+
+(vrl_instance ylsksbsb start [(= size {86 24}) (= selected 1)] 365 36 [(text 1 `start` [(= visible 2) (= edited 1)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance lxvgkoss code [(= size {175 29}) (= selected 1)] 369 502 [(text 1 ` flash('density is', Density)` [(= fore vrl_error) (= visible 2)]) (text 2 ` ` [(= visible 2)]) (text 3 ` ` [(= visible 2)])])
+
+(vrl_instance {ylsksbsb avdnloat} link [] ylsksbsb avdnloat [arrow line])
+
+(vrl_instance {avdnloat gxfmjskf} link [] avdnloat gxfmjskf [arrow line])
+
+(vrl_instance {gxfmjskf lzslzilh} link [] gxfmjskf lzslzilh [arrow line])
+
+(vrl_instance {lzslzilh lyyejspf} link [] lzslzilh lyyejspf [arrow line])
+
+(vrl_instance {lyyejspf bgooyxrt} link [] lyyejspf bgooyxrt [arrow line])
+
+(vrl_instance {bgooyxrt lxvgkoss} link [] bgooyxrt lxvgkoss [arrow line])
+
+(vrl_instance {lxvgkoss sievbmir} link [] lxvgkoss sievbmir [arrow line])
